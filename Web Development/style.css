@@ -1,0 +1,207 @@
+*{
+	margin:0;
+	padding:0;
+	list-style: none;
+}
+body
+{
+	font-family:sans-serif;
+}
+#nav-bar
+{
+	background-color:#965b7fe8;
+	position: sticky;
+	top:0;
+	z-index:10;
+	float: right;
+}
+.nav-link:hover{
+    background-color:rgb(235, 17, 162);
+}
+
+.navbar
+{
+	
+    padding: 0 !important;
+}
+navbar-brand img
+{
+	height:40px;
+	padding-left:20px;
+}
+.navbar-nav li
+{
+	padding: 0 10px;
+}
+.navbar-nav li a
+{
+color:rgba(12, 12, 11, 0.87) !important;
+font-weight:600;
+float:right;
+text-align:left;
+}
+.fa-bars
+{
+	color:rgb(156, 23, 23);
+	font-size:30p !important;
+}
+.navbar-toggler
+{
+	outline:none !important;
+}
+/---banner section--/
+#main
+{
+	text-align: center;
+   background-color:#c7152d;
+   color: rgb(219, 83, 20);
+padding-top:5%;	
+}
+.container h1 img{
+	padding-bottom: 10px;
+}
+
+
+/---service section---/
+#features1
+{
+	text-align: center;
+	padding: 10% 15%;
+	color: rgb(245, 236, 236);
+	background-image: linear-gradient(135deg, rgb(34, 28, 30),rgb(187, 25, 25));
+}
+  #features
+ {
+     text-align: center;
+     padding: 10% 15%;
+	 background-image: url("https://economictimes.indiatimes.com/thumb/height-600,width-1500,imgsize-171453,msid-82254168/digital-money.jpg?from=mdr");
+	 background-repeat: no-repeat;
+}
+ .features1 h3
+{
+	padding:5px;
+	margin-top:25px;
+	text-transform:uppercase;
+}
+
+.features h3
+{
+	padding:5px;
+	margin-top:25px;
+	text-transform:uppercase;
+}
+.title::before
+{
+	content:'';
+	background:#0b070c;
+	height:5px;
+	width:600px;
+	margin-left:auto;
+	margin-right:auto;
+	display:block;
+	transform:translatey(63px);
+}*/
+.title::after
+{
+	content:'';
+	background:#ac0b0b;
+	height:10px;
+	width:50px;
+	margin-left:auto;
+	margin-right:auto;
+    margin-bottom:40px;
+    display: block;
+	transform:translatey(8px);
+}
+#features .btn-primary
+{
+	box-shadow:none;
+	padding:10px 25px;
+	border:none;
+	align-content: center;
+	background-image:linear-gradient(to right,#e6141f,#5f1782)
+}
+/* Action*/
+  #action{
+
+    padding: 7% 15%;
+    text-align: center;
+    line-height: 1.5;
+    color: black;
+  }
+  .main{
+    font-size: 2rem;
+    line-height: 1.5;
+    padding: 2px 0px;
+  }
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+.butt{
+	background-color:rgba(88, 92, 146, 0.521); 
+  border: none;
+  color: rgb(17, 4, 4);
+  padding: 5px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 15px;
+}
+.butt:hover{
+	background-color: rgb(145, 23, 33);
+}
+
+
+/* footer */
+#footer{
+	color:rgb(155, 75, 75);
+    padding: 4% 4%;
+	display: flex;
+	
+	height: 30vh;
+	text-align: center;
+	align-items: center;
+	justify-content: center;
+	
+}
+footer i{
+	display: flex;
+}
+footer i{
+	position: relative;
+	display: inline;
+	color:rgb(10, 7, 10);
+	font-size: 30px;
+	height: 60px;
+	width: 60px;
+	line-height: 60px;
+	border-radius: 50%;
+	margin: 0 15px;
+	text-align: center;
+	cursor: pointer;
+}
+footer i:before{
+	position: absolute;
+	content: '';
+	top: 0;
+	left:0;
+	height: 70%;
+	width:100%;
+	padding-top: 11px;
+	text-align: center;
+	border-radius: 50%;
+	background:#8f0326;
+	transform: scale(0.9);
+}
+i:hover:before{
+	transform: scale(1.2);
+	box-shadow: 0 0 15px #f80b03;
+}
